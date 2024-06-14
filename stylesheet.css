@@ -93,3 +93,25 @@ p {
     text-align: left;
     
 }
+
+
+
+  @media only screen and (max-width: 500px) {
+    img{
+        width: 200px;
+    }
+    
+    header{
+        margin: 40px 0 14px 7px;
+        margin-left: 20px;
+    }
+
+    h1{
+        font-size: 50px;
+        line-height: 1;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+}
